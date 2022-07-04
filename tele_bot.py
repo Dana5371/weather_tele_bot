@@ -41,9 +41,6 @@ async def get_weather(message: types.Message):
     except:
         await message.reply('Check name of city')
 
-    
-
-
+   
 if __name__=='__main__':
     executor.start_polling(dp)
-
